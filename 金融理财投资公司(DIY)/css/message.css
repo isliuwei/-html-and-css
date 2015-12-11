@@ -1,0 +1,97 @@
+/**********message开始**********/
+#message{
+	height: 650px;
+	
+	/*background: gray;*/
+}
+#message .message-box{
+	height: 600px;
+	padding: 50px 20px;
+	position: relative;
+	/*background: gray;*/
+}
+#message .message-title{
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	border-bottom: 1px solid #EA3939;
+	background: url(../img/ly_t.png) no-repeat left 5px;
+	padding-left: 25px;
+	font-weight: bold;
+}
+#message .message-info{
+	width: 300px;
+	height: 310px;
+	padding: 20px;
+	background: #EA3939;
+    color: white;
+    
+}
+#message .slogan-content{
+	width: 300px;
+	height: 120px;
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 30px;
+}
+#message .slogan-link{
+	width: 300px;
+	height: 42px;
+	margin-top: 80px;
+	line-height: 20px;
+	font-size: 12px;
+}
+#message .sloagn-alink{
+	color: white; 
+}
+
+#message .message-form{
+	width: 690px;
+	height: 460px;
+	float: right;
+	position: absolute;
+	padding-top: 10px;
+	top: 50px;
+	right: 0px;
+}
+
+#message .message-table{
+	border-spacing: 10px;
+}
+#message .td1-title{
+	width: 130px;
+	height: 35px;
+	text-align: right;
+	color: #666666;
+}
+
+#message .input-text{
+	width: 460px;
+	height: 42px;
+	border: 1px solid #cccccc;
+}
+#message textarea{
+	width: 460px;
+	height: 156px;
+	border: 1px solid #cccccc;
+}
+#message .input-code{
+	width: 160px;
+	height: 42px;
+	border: 1px solid #cccccc;
+}
+#message .td2-radio{
+	font-size: 12px;
+	color: #666666;
+}
+#message .btn{
+	border: 1px #6C6C6C solid;
+    width: 100px;
+    height: 35px;
+    background: #6C6C6C;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/**********message结束**********/

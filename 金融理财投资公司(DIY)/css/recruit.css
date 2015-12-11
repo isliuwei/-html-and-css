@@ -1,0 +1,79 @@
+/**********recruit开始**********/
+#recruit{
+	height: 650px;
+	
+	/*background: gray;*/
+}
+#recruit .recruit-box{
+	height: 600px;
+	padding: 50px 20px;
+	position: relative;
+	/*background: gray;*/
+}
+#recruit .recruit-title{
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	border-bottom: 1px solid #EA3939;
+	background: url(../img/zp_img.png) no-repeat left 5px;
+	padding-left: 25px;
+	font-weight: bold;
+}
+#recruit .recruit-info{
+	width: 300px;
+	height: 310px;
+	padding: 20px;
+	background: #EA3939;
+    color: white;
+    
+}
+#recruit .slogan-content{
+	width: 300px;
+	height: 120px;
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 30px;
+}
+#recruit .slogan-link{
+	width: 300px;
+	height: 42px;
+	margin-top: 80px;
+	line-height: 20px;
+	font-size: 12px;
+}
+#recruit .sloagn-alink{
+	color: white; 
+}
+
+#recruit .recruit-text{
+	width: 490px;
+	height: 490px;
+	float: right;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	padding: 10px 100px;
+	background: #F5F5F5;
+}
+#recruit .text-title{
+	color: #EA3939;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#recruit .text-sub{
+	margin-top: 20px;
+    font-size: 14px;
+    color: #EA3939;
+}
+#recruit .text-content{
+	color: #5a5a5a;
+	font-size: 13px;
+	line-height: 1.8em;
+}
+/**********recruit结束**********/   
+
+
+
+
+

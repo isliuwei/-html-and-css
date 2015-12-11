@@ -1,0 +1,185 @@
+/**********course开始**********/
+#course-box{
+	position: relative;
+}
+#course-box .course-nav{
+	width: 360px;
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	margin-left: -180px;
+}
+#course-box .course-nav li{
+	float: left;
+}
+#course-box .course-nav li a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color:  #434343;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+#course-box .course-nav li a:hover{
+	color: white;
+	background: rgb(147,196,125);
+}
+
+#course-box .course-img-list{
+	padding-top: 60px;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -550px;
+}
+
+#course-box .course-img-list li{
+	width: 220px;
+	height: 275px;
+	/*background: yellow;*/
+	float: left;
+	/*border: 1px solid black;*/
+	padding: 10px 20px 40px;
+	margin-bottom: 40px;
+}
+#course-box .img{
+	width: 100%;
+	height: 275px;
+	border: 6px solid #ccc;
+}
+#course-box .course-img-list img:hover{
+	border: 6px solid rgb(245,116,0);
+}
+#course-box span{
+	text-align: center;
+	display: block;
+	height: 35px;
+	width: 220px;
+	margin-top: 10px;
+	color: black;
+}
+#course-box span:hover{
+	color: rgb(49,132,251);
+}
+#notice{
+	width: 1280px;
+	height: 400px;
+	/*background: yellow;*/
+	position: absolute;
+	top: 1400px;
+}
+#notice .notice-left{
+	width: 335px;
+	height: 374px;
+	/*background: yellow;*/
+	margin-left: 90px;
+	float: left;
+}
+#notice .notice-topic{
+	margin: 20px 0;
+	color: #666;
+	text-align: center;
+}
+#notice .form-sheet{
+	border: 1px dotted #999;
+	height: 314px;
+	color: #666;
+}
+#notice .sheet-title{
+	width: 259px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+	margin-left: 38px;
+}
+#notice .sheet-textbox{
+	width: 259px;
+	height: 30px;
+	border: 1px dotted #999;
+	margin-left: 38px;
+}
+#notice .code-box{
+	margin: 15px auto;
+	text-align: center;
+}
+#notice .textbox-code{
+	width: 84px;
+	height: 26px;
+	border: 1px dotted #999;
+	text-align: center;
+}
+#notice .btn-box{
+	margin-left: 65px;
+	margin-top: 20px;
+}
+#notice .btn-sub,.btn-res{
+	width: 100px;
+	height: 25px;
+	margin-right: 2px;
+	color: white;
+	text-align: center;
+	background: rgb(83,83,83);
+	display: block;
+	float: left;
+	border: 0px;
+}
+#footer{
+	position: absolute;
+	top: 1800px;
+}
+#notice .notice-right{
+	width: 675px;
+	height: 270px;
+	/*background: pink;*/
+	float: right;
+	margin-right: 80px;
+} 
+#notice .notice-right h2{
+	text-align: center;
+	color: #666;
+	font-size: 20px;
+	padding-top: 15px;
+}
+#notice .notice-list{
+	border: 1px dotted #666;
+	margin-top: 20px;
+	padding: 20px;
+}
+#notice .notice-list li{
+	width: 610px;
+	height: 25px;
+	padding: 8px 0 0 5px;
+	border-bottom: 1px dotted #666;
+	background: url(../img/Problem-bg.png) no-repeat left center;
+}
+#notice .notice-list li a{
+	display: block;
+	width: 610px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 15px;
+	color: #666;
+	text-indent: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********course结束**********/

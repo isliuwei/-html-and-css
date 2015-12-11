@@ -1,0 +1,120 @@
+/**********about开始**********/
+#news{
+	height: 460px;
+}
+#news .nav-box{
+	width: 290px;
+	height: 440px;
+	float: left;
+	margin-top: 5px;
+}
+#news .nav-title{
+	width: 280px;
+	height: 20px;
+	padding: 5px 0px 0px 14px;
+	background: url(../img/nav_title_sign.gif) no-repeat left 8px;
+}
+#news .nav-title a{
+    display: block;
+    color: #EA3939;
+    font-size: 14px;
+    font-weight: bold;
+}
+#news .news-list{
+	height: 90px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 2px solid #EA3939; 
+}
+#news .news-list li{
+	width: 290px;
+	height: 40px;
+	border-bottom: 1px solid #D0D0D0;
+}
+#news .news-list a{
+	display: block;
+	width: 290px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #EFEFEF;
+    display: block;
+    color: #EA3939;
+    font-size: 14px;
+    font-weight: bold;
+}
+#news .news-list a:hover{
+	background: #fff;
+	color: black;
+}
+#news .news-slogan{
+	width: 250px;
+	height: 280px;
+	padding: 20px;
+	background: #EA3939;
+    color: white;
+}
+#news .slogan-content{
+	width: 250px;
+	height: 120px;
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 30px;
+}
+#news .slogan-link{
+	width: 250px;
+	height: 42px;
+	margin-top: 80px;
+	line-height: 20px;
+	font-size: 12px;
+}
+#news .sloagn-alink{
+	color: white; 
+}
+#news .news-info{
+	width: 770px;
+	height: 280px;
+	float: right;
+}
+#news .info-title{
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black; 
+}
+#news .info-title a{
+	color: black;
+}
+#news .info-list{
+	margin-left: 10px;
+	padding-top: 5px;
+}
+#news .info-list li{
+	width: 750px;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 0 3px 5px;
+	float: left;
+	text-indent: 10px;
+	border-bottom: 1px dotted #cccccc;
+	background: url(../img/article_arrow.gif) no-repeat 5px center;
+}
+#news .info-list li a{
+	font-size: 13px;
+	color: #666666;
+}
+#news .info-list .date{
+	font-size: 13px;
+	color: #666666;
+	float: right;
+}
+
+
+
+
+
+
+
+
+/**********about开始**********/

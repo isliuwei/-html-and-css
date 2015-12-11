@@ -1,0 +1,362 @@
+/**********index开始**********/
+#news{
+	height: 196px;
+	/*background: blue;*/
+}	
+#news .news-left{
+	width: 660px;
+	height: 155px;
+	/*background: yellow;*/
+	float: left;
+	margin-top: 20px;
+}
+
+#news .news-title h3{
+	display: inline;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#news .more{
+	display: block;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-right: 50px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: -10px;
+}
+#news .more a{
+	display: block;
+	color: black;
+}
+#news .more a:hover{
+	background: rgb(224,102,102);
+	border-radius: 16px;
+	color: white;
+
+}
+#news .news-list{
+	height: 90px;
+	width: 660px;
+	margin-top: 20px;
+}
+#news .news-list li{
+	height: 30px;
+	line-height: 30px;
+    font-size: 12px;
+    text-indent: 1.4em;
+    float: left;
+    margin-right: 20px;
+    background: url(../img/home-bg1.png) no-repeat left 5px;
+}
+#news .news-list li a{
+	display: block;
+	color: black;
+}
+#news .news-right{
+	width: 415px;
+	height: 135px;
+	/*background: green;*/
+	float: right;
+	margin-top: 20px;
+}
+#news .course-list{
+	margin-top: 20px;
+	width: 370px;
+	border: 1px dotted black;
+	height: 90px;
+}
+#news .course-list li{
+	width: 370px;
+	height: 30px;
+	line-height: 30px;
+    font-size: 12px;
+    text-indent: 1.4em;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    background: url(../img/home-bg1.png) no-repeat 5px 5px;
+}
+#news .course-list li a{
+	display: block;
+	color: black;
+}
+#course{
+	width: 1280px;
+	height: 450px;
+	padding-top: 80px;
+	background: rgb(245,245,245);
+}
+#course h3,h6{
+	text-align: center;
+    margin-top: 20px;
+}
+#course .course-img{
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#course .course-img li{
+	float: left;
+	width: 194px;
+	height: 202px;
+	margin-left: 20px;	
+}
+#course .course-img li a{
+	display: block;
+	font-size: 14px;
+	color: black;
+	text-align: center;
+}
+#slogan{
+	width: 1280px;
+	height: 350px;
+	padding-top: 15px;
+	background: rgb(147,196,125);
+}
+#slogan .slogan-content{
+	width: 525px;
+	height: 304px;
+	/*background: blue;*/
+	margin: 0 auto;
+	padding-top: 30px;
+	
+}
+#slogan .span-01{
+	display: block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: white;
+	float: left;
+	margin-left: 164px;
+}
+#slogan .span-02{
+	display: block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: rgb(241,194,50);
+	color: white;
+	float: left;
+}
+#slogan .title-01{
+	clear: both;
+	padding-top: 20px;
+	height: 44px;
+	text-align: center;
+	color: white;
+}
+#slogan .title-02{
+	margin-top: 20px;
+	height: 21px;
+	text-align: center;
+	color: white;
+}
+#slogan .content-text{
+	color: white;
+	font-size: 12px;
+	line-height: 24px;
+	width: 525px;
+	height: 80px;
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 1px solid white;
+	/*background: green;*/
+}
+#slogan .slogan-link{
+	display: block;
+	width: 102px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	margin: 10px auto;
+
+}
+#question{
+	width: 1280px;
+    height: 400px;
+    padding: 10px 0;
+    background: #FEE157;
+  
+}
+#question .question-left{
+	width: 675px;
+	height: 264px;
+	/*background: pink;*/
+	float: left;
+	margin: 50px;
+}
+#question .question-title{
+	color: rgb(102, 102, 102);
+	font-size: 18px;	
+}
+#question .more{
+	float: right;
+	/*display: block;*/
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    color: #333;
+}
+#question .more:hover{
+	background: white;
+	border-radius: 10px;	
+}
+
+#question .question-list{
+	width: 633px;
+	height: 170px;
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px dotted black;
+}
+#question .question-list li{
+	background: url(../img/Problem-bg.png) no-repeat left 12px;
+    width: 610px;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted black;
+    
+}
+#question .question-list a{
+	display: block;
+	width: 610px;
+    height: 25px;
+    line-height: 25px;
+	font-size: 15px;
+	text-indent: 10px;
+    color: #666;
+
+}
+
+#question .question-right{
+	width: 335px;
+	height: 340px;
+	/*background: pink;*/
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	border: 1px dotted black;
+
+
+}
+#question .form-title{
+	font-size: 18px;
+	color: rgb(102, 102, 102);
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#question .form-box{
+	width: 259px;
+	height: 266px;
+	margin: 0 37px;
+	background: #FEE157;
+}
+#question .form-list{
+	width: 200px;
+	height: 266px;
+	/*background: red;*/
+	font-size: 15px;
+    
+    text-align: center;
+    color: #666;
+}
+#question .list-01{
+	width: 259px;
+	height: 30px;
+	text-align: center;
+}
+#question .textbox-01{
+	width: 257px;
+	height: 30px;
+	border: 1px dotted #ccc;
+	text-align: center;
+
+}
+#question .list-02{
+	width: 53px;
+	height: 18px;
+}
+#question .textbox-02{
+	width: 80px;
+	height: 26px;
+	border: 1px dotted #ccc;
+}
+/*#question .list-03{
+	width: 65px;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #666;
+}*/
+#question .form-list01{
+	text-align: left;
+}
+#question .btn-01{
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	color: white;
+	display: block;
+	text-align: center;
+	background: rgb(83,83,83);
+	float: left;
+	margin-top: 10px;
+	margin-left: 28px;
+	margin-right: 2px;
+}
+#question .btn-02{
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	color: white;
+	display: block;
+	text-align: center;
+	background: rgb(83,83,83);
+	margin-top: 10px;
+	float: left;
+}
+
+
+/**********index结束**********/
+
+
+
+
+/**********footer开始**********/
+#footer{
+	width: 1240px;
+	height: 90px;
+	background: #414B4A;
+	padding: 20px;
+}
+#footer .link{
+	text-align: center;
+	margin: 0 auto;
+}
+#footer .link a{
+	color: #fff;
+}
+#footer .content,.model{
+	text-align: center;
+	color: #fff;
+	width: 1100px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 14px;
+	margin: 15px auto;
+}
+
+/**********footer结束**********/

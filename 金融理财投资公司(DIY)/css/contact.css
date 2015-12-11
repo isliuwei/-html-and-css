@@ -1,0 +1,41 @@
+/**********contact开始**********/
+#contact{
+	height: 530px;
+}
+#contact .contact-title{
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	border-bottom: 1px solid #EA3939;
+	background: url(../img/call.png) no-repeat left 5px;
+	padding-left: 25px;
+	font-weight: bold;
+}
+#contact .contact-info{
+	height: 402px;
+	padding: 50px 20px;
+	
+
+}
+#contact .address{
+	width: 406px;
+	height: 276px;
+	
+	float: left;
+}
+#contact .contact-text{
+	line-height: 20px;
+	color: #5a5a5a;
+}
+#contact .map{
+	width: 538px;
+	height: 400px;
+	float: right;	
+}
+#contact .map-img{
+	border: 1px solid #cccccc;
+}
+
+
+
+/**********contact结束**********/

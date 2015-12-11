@@ -1,0 +1,198 @@
+/**********通用样式开始**********/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+img{
+	border: 0;
+}
+
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+/**********通用样式结束**********/
+
+
+/**********header开始**********/
+#header{
+	height: 95px;
+	/*background: #ff0000;*/
+	position: relative;
+}
+
+#header .logo img{
+	position: absolute;
+	top: 50%;
+	margin-top: -36px;   /* 图片为高度为71px */
+}
+#search-box{
+	width: 262px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -15px;
+	/*background: yellow;*/
+}
+#search-ipt{
+	width: 210px;
+	height: 28px;
+	border: 1px solid #ea3939;
+	float: left;  /*解决空隙问题*/		
+}
+#search-btn{
+	width: 50px;
+	height: 30px;
+	background: #ea3939;
+	color: white;
+	border: 0;
+	float: left;  /*解决空隙问题*/
+}
+#share{
+	width: 210px;
+	height: 30px;
+	/*background: yellow;*/
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+}
+#share li{
+	width: 70px;
+	height: 30px;
+	float: left;
+}
+#share a{
+	display: block;
+	width: 33px;
+	height: 30px;
+	margin-left: 30px;		
+}
+#share .qq{
+	background: url(../img/top_qq.jpg) no-repeat;
+}
+#share .qq:hover{
+	background: url(../img/top_qq_h.png) no-repeat;
+}
+#share .weibo{
+	background: url(../img/top_weib.jpg) no-repeat;
+}
+#share .weibo:hover{
+	background: url(../img/top_weib_h.png) no-repeat;
+}
+#share .mail{
+	background: url(../img/top_you.jpg) no-repeat;
+}
+#share .mail:hover{
+	background: url(../img/top_you_h.png) no-repeat;
+}
+
+/**********header结束**********/
+
+/**********nav开始**********/
+#nav{
+	/*width: 1252px;*/
+	height: 50px;
+	background: #EB3939;
+}
+#nav-meun{
+	/*background: green;*/
+	height: 50px;
+}
+#nav li{
+	float: left;
+}
+#nav a{
+	display: block;
+	color: white;
+	font-size: 14px;
+	width: 135px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+#nav a:hover{
+	background: #A61C00;
+}
+#nav a.selected{      /* 表示包含selected属性的<a>标签 */
+	                  /* a .selected 表示<a>标签下的selected属性 派生选择器*/
+	background: #A61C00;
+}
+
+/**********nav结束**********/
+
+/**********banner开始**********/
+#banner{
+	height: 390px;
+	background: url(../img/01.jpg) no-repeat center;
+	position: relative;
+}
+#banner .slogan{
+	background: url(../img/qw.png) no-repeat;
+	width: 445px;
+	height: 96px;
+	position: absolute;
+	left: 50%;
+	margin-left: -223px;
+	margin-top: 80px;	
+}
+#banner .slogan-header{
+	color: white;
+    font-size: 13px;
+    margin-left: 120px;
+}
+#banner .slogan-content{
+	font-size: 33px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 18px;
+}
+#banner .slogan-content span{
+	padding-right: 20px;
+	color: #EA3939;
+}
+#banner .slogan-footer{
+	color: white;
+    font-size: 13px;
+    padding-top: 16px;
+    margin-left: 70px;
+}
+#tel{
+	background: url(../img/fg_dh.png) no-repeat;
+	width: 232px;
+	height: 35px;
+	line-height: 35px;
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	left: 50%;
+	margin-left: -116px;
+	top: 220px;	
+	text-indent: 20px;
+}
+/**********banner结束**********/
+
+/**********footer开始**********/
+
+
+
+/**********footer结束**********/
+
+
+
+
+

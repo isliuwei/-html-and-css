@@ -1,0 +1,338 @@
+/**********content开始**********/
+#content{
+	padding-top: 30px;
+}
+#content-top{
+	width: 1100px;
+	height: 170px;
+}
+#content-top .company-news,.tender{
+	width: 334px;
+	height: 174px;
+	margin-right: 40px;
+	float: left;
+}
+#content-top .news-title,.tender-title{
+	position: relative;
+	text-indent: 30px;
+	height: 27px;
+	line-height: 27px;
+	background: url(../img/xw_1.png) no-repeat left center;	
+}
+#content-top .news-title span,.tender-title span{
+	float: left;
+	color: #EA3939;
+	font-size: 15px;
+}
+#content-top .news-more,.tender-more{
+	float: right;
+	color: #5A5A5A;
+	font-size: 10px;
+	position: absolute;
+	right: 10px;
+}
+
+#content-top .news-list,.tender-list{
+	border-top: 2px solid #EA3939;
+}
+#content-top .news-list li,.tender-list li{
+	
+	text-indent: 20px;
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 1px dotted #cccccc;
+	background: url(../img/article_arrow.gif) no-repeat 5px center;
+}
+#content-top .news-list a,.tender-list a{
+	color: #5A5A5A;
+	font-size: 12px;	
+}
+#content-top .news-date,.tender-date{
+	color: #666666;
+	font-size: 10px;
+	float: right;
+}
+/*#content-top .tender{
+	width: 334px;
+	height: 174px;
+	background: yellow;
+	float: left;
+	margin-right: 40px;
+}
+#content-top .tender-title{
+	position: relative;
+	width: 334px;
+	height: 27px;
+	line-height: 27px;
+	text-indent: 20px;
+	background: url(../img/xw_2.png) no-repeat left center;
+}
+#content-top .tender-title span{
+	font-size: 15px;
+	color: black;
+	float: left;	
+}
+#content-top .tender-more{
+	color: #5A5A5A;
+	font-size: 10px;
+	float: right;
+	position: absolute;
+	right: 0;
+}
+#content-top .tender-list{
+	border-top: 2px solid #EA3939;
+}
+#content-top .tender-list li{
+	text-indent: 20px;
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 1px dotted #cccccc;
+	background: url(../img/article_arrow.gif) no-repeat 5px center;
+}
+#content-top .tender-list a{
+	color: #5A5A5A;
+	font-size: 12px;
+	text-align: center;
+}
+#content-top .tender-list span{
+	color: #5A5A5A;
+	font-size: 12px;
+	float: right;
+}*/
+#content-top .invest-info{
+	width: 330px;
+	height: 170px;
+	float: right;
+}
+#content-top li{
+	float: left;
+	margin-right: 10px;
+}
+#content-top .link-img{
+	display: block;
+	width: 100px;
+	height: 125px;
+}
+#content-top .finan{
+	background: url(../img/sy_tz_1.jpg) no-repeat;
+}
+#content-top .invest{
+	background: url(../img/sy_tz_2.jpg) no-repeat;
+}
+#content-top .equ{
+	background: url(../img/sy_tz_3.jpg) no-repeat;
+}
+#content-top .finan:hover{
+	background: url(../img/sy_tz_1_h.jpg) no-repeat;
+}
+#content-top .invest:hover{
+	background: url(../img/sy_tz_2_h.jpg) no-repeat;
+}
+#content-top .equ:hover{
+	background: url(../img/sy_tz_3_h.jpg) no-repeat;
+}
+#content-top .link-text1{
+	display: block;
+	text-align: center;
+	color: #EA3939;
+	font-size: 14px;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;	
+}
+#content-top .link-text2{
+	text-align: center;
+	font-size: 12px;
+	color: #826682;
+	width: 100px;
+	height: 21px;
+	line-height: 21px;	
+}
+#content-footer{
+	margin-top: 20px;
+	width: 1100px;
+	height: 330px;	
+}
+#content-footer .about-us{
+	position: relative;
+	border: 1px #CCCCCC solid;
+	width: 298px;
+	height: 320px;
+	margin-right: 10px;
+	background: red;
+	float: left;
+	background: url(../img/ab_t.jpg) no-repeat center top;
+}
+#content-footer .company-info{
+	position: absolute;
+	top: 135px;
+	padding: 20px 10px 10px 10px;
+    line-height: 1.4em;
+    color: #5A5A5A;
+    font-size: 14px;
+}
+#content-footer .business{
+	width: 250px;
+	height: 282px;
+	padding: 20px;
+	background: yellow;
+	float: left;
+	margin-right: 10px;
+	background: url(../img/yw_t.png) no-repeat right bottom #F1F1F1;
+
+}
+#content-footer .busi-title,.recruit-title{
+	font-size: 15px;
+    color: #EA3939;
+    text-align: left;
+}
+#content-footer .busi-info,.recruit-info{
+	line-height: 30px;
+    font-size: 13px;
+    color: #000000;
+}
+#content-footer .detail{
+	font-size: 13px;
+	color: #EA3939;
+}
+
+#content-footer .contact{
+	width: 490px;
+	height: 160px;
+	background: green;
+	float: left;
+	margin-bottom: 10px;
+	background: url(../img/call_t.png) no-repeat left center #F1F1F1;
+}
+#content-footer .contact-list{
+	width: 265px;
+	height: 120px;
+	margin-top: 15px;
+	float: right;
+}
+#content-footer .contact-list li{
+	width: 265px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+#content-footer .recruit{
+	position: relative;
+	width: 450px;
+	height: 112px;
+	padding: 20px;
+	float: left;
+	background: url(../img/zp_t.png) no-repeat left center #F1F1F1;
+}
+#content-footer .recruit-content{
+	position: absolute;
+	left: 170px;
+}
+/*
+#content-footer .recruit{
+	width: 300px;
+	height: 112px;
+	
+	background: gray;
+	float: left;
+	background: url(../img/zp_t.png) no-repeat left center #F1F1F1;
+}
+#content-footer .recruit-content{
+	
+	padding: 20px 20px 170px 20px;
+}*/
+/**********content结束*********/
+
+/**********footer开始*********/
+#footer-box{
+	width: 100%;
+	height: 180px;
+	margin-top: 20px;
+	background: #666666;
+}
+#footer{
+	position: relative;
+}
+#footer .footer-ad{
+	width: 40px;
+	height: 150px;
+	color: white;
+	background: #EA3939;
+	text-align: center;
+	line-height: 24px;
+	position: absolute;
+	top: -10px;
+}
+#footer .copyright{
+	font-size: 14px;
+	width: 500px;
+	height: 75px;
+	margin-left: 80px;
+	position: absolute;
+	top: 40px;
+	color: white;
+	line-height: 40px;
+}
+#footer .code{
+	position: absolute;
+	top: 30px;
+	left: 60%;
+}
+#footer .bbs{
+	width: 216px;
+	height: 120px;
+	padding-top: 40px;
+	position: absolute;
+	left: 70%;
+}
+#footer .bbs-text{
+	color: white;
+	font-size: 14px;
+}
+#footer .bbs-list li{
+	float: left;
+}
+#footer .bbs-list a{
+	display: block;
+	width: 38px;
+	height: 36px;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+#footer .qq{
+	background: url(../img/db_qq.jpg) no-repeat;
+}
+#footer .weibo{
+	background: url(../img/db_wb.jpg) no-repeat;
+}
+#footer .mail{
+	background: url(../img/db_yx.jpg) no-repeat;
+}
+#footer .qq:hover{
+	background: url(../img/db_qq_h.jpg) no-repeat;
+}
+#footer .weibo:hover{
+	background: url(../img/db_wb_h.jpg) no-repeat;
+}
+#footer .mail:hover{
+	background: url(../img/db_yx_h.jpg) no-repeat;
+}
+#footer .footer-bottom{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	padding-top: 140px;
+}
+#footer .footer-bottom a{
+	color: white;
+}
+/**********footer结束*********/
+
+
+
+
+
+

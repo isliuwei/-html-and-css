@@ -1,0 +1,246 @@
+/**********about_us开始**********/
+#about{
+	width: 1280px;
+	height: 440px;
+	background: rgb(245,245,245);
+	/*background: blue;*/
+	position: relative;
+}
+#about .main-title{
+	text-align: center;
+    font-size: 27px;
+    color: #666;
+    font-weight: bolder;
+    padding: 20px 0;
+}
+#about .info-us{
+	width: 595px;
+	height: 340px;
+	padding-left: 30px;
+	/*background: gray;*/
+	float: left;	
+}
+#about .title-01{
+	color: rgb(106,168,79);
+	font-size: 18px;
+	margin-top: 20px;
+}
+#about .title-02{
+    color: rgb(253,226,87);
+    font-size: 18px;
+    margin-top: 20px;
+}
+#about .title-03{
+    color: rgb(109,158,236);
+    font-size: 18px;
+    margin-top: 20px;
+}
+#about .info-content{
+	font-size: 12px;
+	margin-top: 10px;
+	line-height: 20px;
+}
+
+#about .img-left{
+	float: left;
+	margin-left: 80px;
+}
+#about .img-right{
+	/*float: right;*/
+	position: absolute;
+	right: 100px;
+	top: 60px;
+	width: 235px;
+	height: 292px;
+	text-align: center;
+}
+#know{
+	height: 300px;
+	width: 1280px;
+	background: rgb(109,158,235);
+}
+#know .title-01{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	padding: 40px;
+}
+#know .title-02{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	padding-bottom: 30px;
+}
+#know .know-info{
+	width: 525px;
+	height: 72px;
+	margin: 0 auto;
+	padding-top: 15px;
+	border-top: 1px solid white;
+	color: white;
+	font-size: 12px;
+	line-height: 2em;
+}
+#login{
+	width: 1280px;
+	height: 420px;
+	margin-top: 20px;
+	/*background: red;*/
+}
+#login .login-left{
+	width: 640px;
+	float: left;
+	
+	/*background: green;*/
+}
+#login .login-img{
+	height: 130px;
+	padding-top: 20px;
+	margin-left: 60px;
+}
+#login .pic{
+	margin-right: 50px;
+}
+#login .login-meun{
+	margin-left: 40px;
+}
+#login .login-list li{
+	float: left;
+	width: 120px;
+	height: 227px;
+	padding: 0 30px;
+	font-size: 12px;
+	line-height: 20px;
+	height: 227px;
+	background: url(../img/about-Article.jpg) no-repeat left center;
+}
+#login .login-list{
+	height: 227px;
+	width: 570px;
+	text-align: left;
+	background: url(../img/about-Article.jpg) no-repeat right center;
+}
+#login .login-title{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	text-align: center;
+}
+#login .login-right{
+	width: 335px;
+	height: 374px;
+	/*background: yellow;*/
+	margin-left: 150px;
+	float: left;
+}
+#login .login-topic{
+	margin: 20px 0;
+	color: #666;
+	text-align: center;
+}
+#login .form-sheet{
+	border: 1px dotted #999;
+	height: 314px;
+	color: #666;
+}
+#login .sheet-title{
+	width: 259px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+	margin-left: 38px;
+}
+#login .sheet-textbox{
+	width: 259px;
+	height: 30px;
+	border: 1px dotted #999;
+	margin-left: 38px;
+}
+#login .code-box{
+	margin: 15px auto;
+	text-align: center;
+}
+#login .textbox-code{
+	width: 84px;
+	height: 26px;
+	border: 1px dotted #999;
+	text-align: center;
+}
+#login .btn-box{
+	margin-left: 65px;
+	margin-top: 20px;
+}
+#login .btn-sub,.btn-res{
+	width: 100px;
+	height: 25px;
+	margin-right: 2px;
+	color: white;
+	text-align: center;
+	background: rgb(83,83,83);
+	display: block;
+	float: left;
+	border: 0px;
+}
+#pk{
+	width: 1280px;
+	height: 728px;
+	padding-top: 30px;
+    background: rgb(147,196,125);
+}
+#pk .pk-left,.pk-right h2{
+	text-align: center;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+#pk .pk-left{
+	width: 400px;
+	height: 458px;
+	float: left;
+	/*background: red;*/
+	margin-left: 150px;
+}
+#pk .pk-list{
+	background: url(../img/index_in_9c75.png) no-repeat left center;
+}
+#pk .pk-list li{
+	height: 58px;
+    line-height: 58px;
+    font-size: 18px;
+    color: #FFF;
+    padding-left: 28px;
+    text-align: left;
+}
+#pk .pk-mid{
+	width: 150px;
+	height: 90px;
+	/*background: blue;*/
+	float: left;
+	margin-top: 180px;
+	text-align: center;
+    color: #FFF;    
+    font-size: 50px;	
+}
+#pk .pk-right{
+	width: 400px;
+	height: 458px;
+	float: right;
+	/*background: green;*/
+	margin-right: 150px;
+	margin-top: 220px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********about_us结束**********/
